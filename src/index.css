@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bartina";
+  src: url(../public/fonts/Bartina.ttf);
+  src: url(../public/fonts/Bartina.woff2);
+}
+
+@font-face {
+  font-family: "FuturaDemiCTT";
+  src: url(../public/fonts/FuturaDemiCTT.ttf);
+  src: url(../public/fonts/FuturaDemiCTT.woff2);
+}
+
+#login,
+#register {
+  background-image: url(../public/images/bg_auth.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
